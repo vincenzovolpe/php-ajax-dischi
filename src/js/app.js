@@ -13,7 +13,7 @@ $(document).ready(function(){
         // Recupero il genere selezionato dall'utente
         var genere_selezionato = $('#scelta-genere').val();
         if (genere_selezionato == '') {
-            $('.disco').fadeIn();
+            ajaxAll();
         } else {
             $('.discografia').empty();
             // Per ogni disco verifico se il suo genere corrisponde al genere genere_selezionato
