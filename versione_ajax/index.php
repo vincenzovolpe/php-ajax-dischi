@@ -15,10 +15,10 @@
         <main>
             <select id="scelta-genere">
                 <option value="">Scegli un genere</option>
-                <option value="pop">Pop</option>
-                <option value="rock">Rock</option>
-                <option value="jazz">Jazz</option>
-                <option value="metal">Metal</option>
+                <option value="Pop">Pop</option>
+                <option value="Rock">Rock</option>
+                <option value="Jazz">Jazz</option>
+                <option value="Metal">Metal</option>
             </select>
             <div id= dischi class="discografia">
 
