@@ -1,0 +1,50 @@
+main {
+    height: calc(100vh - 70px);;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .discografia {
+        height: 90%;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .disco {
+            height: calc((100% / 3) - 10px);
+            background: rgb(46, 58, 70);
+            width: calc((100% / 4) - 60px);
+            margin: 5px 10px 5px 10px;
+            padding: 20px;
+            text-align: center;
+
+            img.copertina {
+                width: 85%;
+            }
+
+            p.titolo {
+                margin: 15px 0;
+                color: white;
+                font-size: 15px;
+                text-transform: uppercase;
+            }
+
+            small.artista {
+                color: grey;
+                font-size: 15px;
+                display: block;
+            }
+
+            span.anno {
+               color: grey;
+           }
+        }
+    }
+
+    #scelta-genere {
+        margin-bottom: 20px;
+    }
+}
