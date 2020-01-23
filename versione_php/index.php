@@ -11,7 +11,7 @@
     </head>
     <body>
         <header>
-            <img src="images/logo.png" alt="Spotify">
+            <img src="../public/images/logo.png" alt="Spotify">
         </header>
         <main>
             <select id="scelta-genere">
