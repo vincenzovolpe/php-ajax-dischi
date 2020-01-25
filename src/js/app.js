@@ -6,7 +6,6 @@ $(document).ready(function(){
   // Chiamata ajax per recuperare i dischi da visualizzare
     ajaxAll();
 
-
     // BONUS:Tendina per selezionare il genere
     $('#scelta-genere').change(function(){
         $('.discografia').empty();
@@ -19,7 +18,7 @@ $(document).ready(function(){
             // Per ogni disco verifico se il suo genere corrisponde al genere genere_selezionato
             $.ajax({
                 dataType: 'json',
-                url: 'dischi.php',
+                url: '../dischi.php',
                 method: 'get',
                 success: function(data) {
                     // Recupero l'array che contiene tutti i dischi
@@ -58,7 +57,7 @@ $(document).ready(function(){
     function ajaxAll() {
         $.ajax({
             dataType: 'json',
-            url: 'dischi.php',
+            url: '../dischi.php',
             method: 'get',
             success: function(data) {
                 // Recupero l'array che contiene tutti i dischi

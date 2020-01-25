@@ -1,9 +1,4 @@
 <?php
-    /*// Prendo i dati jason dei dischi dall'  API
-    $json = file_get_contents('https://flynn.boolean.careers/exercises/api/array/music');
-
-    // Trasformo i dati json in array
-    $oggetto = json_decode($json);*/
 
     $dischi = array (
   'response' =>
@@ -91,6 +86,9 @@
   ),
 );
 
+// Controllo se esiste una richiesta via ajax
+if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
     echo json_encode($dischi);
+}
 
 ?>

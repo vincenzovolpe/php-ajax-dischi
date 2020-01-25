@@ -113,7 +113,7 @@ $(document).ready(function () {
 
       $.ajax({
         dataType: 'json',
-        url: 'dischi.php',
+        url: '../dischi.php',
         method: 'get',
         success: function success(data) {
           // Recupero l'array che contiene tutti i dischi
@@ -152,7 +152,7 @@ $(document).ready(function () {
   function ajaxAll() {
     $.ajax({
       dataType: 'json',
-      url: 'dischi.php',
+      url: '../dischi.php',
       method: 'get',
       success: function success(data) {
         // Recupero l'array che contiene tutti i dischi

@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-        <link rel="stylesheet" href="../public/css/app.css">
         <script src="../public/js/app.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="../public/css/app.css">
         <title>PHP Ajax Dischi</title>
     </head>
     <body>
